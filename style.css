@@ -1,14 +1,13 @@
 html {
   font-size: 10px;
-  background: url(img/b9r5sEL.jpg) bottom center;
-  
-  background-size: cover;
+  background: url(img/drum.jpeg) bottom;
+  background-size:cover;
 }
 
 body,html {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 .keys {
@@ -17,11 +16,12 @@ body,html {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  margin-top: -150px;
 }
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
+  border: 2.5px solid rgb(74, 2, 2);
+  border-radius: 16px;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
@@ -29,19 +29,19 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  background: rgb(0, 0, 0);
 }
 
 .playing {
   transform: scale(1.1);
   border-color: red;
-  box-shadow: 0 0 1rem red;
+  box-shadow: 0 0 4rem red;
 }
 
 kbd {
   display: block;
-  font-size: 4rem;
+  font-size:40px;
+  font-family: 'Jost', sans-serif;
 }
 
 .sound {
@@ -49,4 +49,15 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: red;
+  font-size: 18px;
+}
+
+h1{
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 20px;
+  margin-top: 200px;
+  text-align: center;
+  background: rgba(74, 2, 2, 0.885);
 }
